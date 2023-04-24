@@ -1,0 +1,17 @@
+.skill-thumb-icon {
+    max-height: 65px;
+    padding-right: 0.5rem;
+}
+
+.skill-side-thumb-icon {
+    max-height: 55px;
+    padding-right: 1rem;
+}
+
+.hobby-li-item {
+    padding-right: 1rem;
+}
+
+.experience-bagde {
+    margin-right: 0.5rem;
+}

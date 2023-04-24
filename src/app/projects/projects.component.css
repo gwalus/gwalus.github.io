@@ -1,12 +1,13 @@
 .grid-item {
     position: relative;
     overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .grid-item img {
     transition: transform 0.3s ease;
-    max-height: 100%;
-    width: 100%;
 }
 
 .grid-item:hover img {

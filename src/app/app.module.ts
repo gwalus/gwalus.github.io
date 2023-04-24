@@ -8,12 +8,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { TabsModule } from 'ngx-bootstrap/tabs';
-import { ImagesComponent } from './images/images.component'
+import { ProjectsComponent } from './projects/projects.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { StatusBarComponent } from './status-bar/status-bar.component';
+import { TooltipModule } from 'ngx-bootstrap/tooltip'
 
 @NgModule({
   declarations: [
     AppComponent,
-    ImagesComponent
+    ProjectsComponent,
+    AboutMeComponent,
+    NavbarComponent,
+    StatusBarComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +28,8 @@ import { ImagesComponent } from './images/images.component'
     BsDropdownModule.forRoot(),
     BrowserAnimationsModule,
     AccordionModule.forRoot(),
-    TabsModule.forRoot()
+    TabsModule.forRoot(),
+    TooltipModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

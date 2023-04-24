@@ -12,6 +12,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.0.4",
+    "@angular/cdk": "^15.0.0",
     "@angular/common": "~11.0.4",
     "@angular/compiler": "~11.0.4",
     "@angular/core": "~11.0.4",
@@ -20,9 +21,14 @@
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
     "bootstrap": "^4.5.3",
+    "bootstrap-icons": "^1.10.4",
     "bootswatch": "^5.2.0",
+    "masonry-layout": "^4.2.2",
+    "mdb-angular-ui-kit": "^4.0.0",
     "ngx-accordion": "0.0.17",
     "ngx-bootstrap": "^7.1.2",
+    "ngx-masonry": "^11.0.2",
+    "primeng": "^11.4.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"

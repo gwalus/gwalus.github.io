@@ -1,11 +1,14 @@
 <div class="container">
-  <div class="jumbotron">
-    <h1 class="display-5">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-      featured content or information.</p>
+  <app-navbar></app-navbar>
 
-    <app-images></app-images>
+  <app-status-bar></app-status-bar>
+
+  <div class="jumbotron p-5 ">
+    <app-about-me></app-about-me>
+
+    <app-projects></app-projects>
   </div>
 </div>
+
 
 <router-outlet></router-outlet>

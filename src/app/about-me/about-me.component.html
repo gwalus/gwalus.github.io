@@ -1,21 +1,22 @@
-<div class="container float-left">
+<div class="container mt-5">
     <div class="row">
-        <div class="col-2">
+        <div class="col-md-2" id="whoami">
             <h3>Whoami</h3>
         </div>
-        <div class="col-10">
+        <div class="col-md-10">
             <hr>
         </div>
     </div>
-    <div class="row">
+    <div class="row mb-3">
         <div class="col-md-3 m-4">
             <img src="https://avatars.githubusercontent.com/u/61661032?s=400&u=876323e869d5baa02f921fb4af3acab38d15f59a&v=4"
                 alt="me" class="img-thumbnail border border-bottom border-warning mb-0" style="max-height: 15rem;">
-            <h2 class="mt-2 ml-2 text-decoration-underline">Grzegorz Waluś</h2>
+            <span class="font-weight-bold text-decoration-underline mt-3 ml-4" style="font-size: 28px;">Grzegorz
+                Waluś</span>
         </div>
-        <div class="col">
+        <div class="col-md-4 mt-5 ml-3">
             <div class="row">
-                <span id="skills" style="font-size: 26px;">Main skills:</span>
+                <span id="skills" class="mb-2" style="font-size: 26px;">Main skills:</span>
                 <ul class="list-inline">
                     <li class="list-inline-item" tooltip="C#">
                         <img src="/assets/csharp.png" class="skill-thumb-icon" alt="c#">
@@ -27,13 +28,13 @@
                         <img src="/assets/git.png" class="skill-thumb-icon" alt="git">
                     </li>
                     <li class="list-inline-item" tooltip="MSSql / T-SQL">
-                        <img src="/assets/sql.png" class="skill-thumb-icon" alt="sql">
+                        <img src="/assets/mssql.png" class="skill-thumb-icon" alt="sql">
                     </li>
                 </ul>
             </div>
 
             <div class="row">
-                <span id="skills" style="font-size: 22px;">Side skills:</span>
+                <span id="skills" class="mb-2" style="font-size: 22px;">Side skills:</span>
                 <ul class="list-inline">
                     <li class="list-inline-item" tooltip="Docker">
                         <img src="/assets/docker.png" class="skill-side-thumb-icon" alt="docker">
@@ -47,32 +48,43 @@
                 </ul>
             </div>
         </div>
-
+        <div class="col-md-3 ml-auto mr-3 mt-0 mb-3">
+            <div class="toast show static-status" role="alert">
+                <div class="toast-header">
+                    <strong class="me-auto">Status</strong>
+                    <small>since April</small>
+                </div>
+                <div class="toast-body">
+                    Currently, looking for .NET developer job.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
         <div>
             <tabset>
                 <tab heading="Description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel felis non mi accumsan
-                        consectetur.
-                        Curabitur condimentum justo in mauris viverra, quis pretium nisi aliquet. Morbi in libero
-                        sollicitudin,
-                        dictum enim quis, rutrum purus. Mauris bibendum vehicula nibh, et auctor ligula sodales eu.
-                        Etiam
-                        rhoncus ex ante, bibendum auctor diam varius ut. Curabitur accumsan congue nulla nec congue.
-                        Praesent
-                        efficitur convallis venenatis. Morbi commodo dolor libero, ac semper enim posuere eget. Nullam
-                        rhoncus,
-                        ipsum ut fermentum venenatis, eros ex interdum risus, non interdum leo est ut risus. Vivamus ut
-                        lacus
-                        commodo, ultrices libero quis, congue lorem. Cras ut molestie lacus. Vestibulum nec arcu eget
-                        lacus
-                        tincidunt faucibus. Praesent et eros quis elit mattis pretium. Nullam ut magna vulputate risus
-                        fermentum
-                        convallis. Vestibulum id blandit risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p style="text-indent: 30px;">I graduated from Computer Science at the Technical and
+                        Humanities
+                        University in Bielsko-Biała,
+                        where I got my degree in Software Engineering. I'm all about technologies related to the .NET
+                        platform, and I love coding in C#. I've built apps using WPF, Windows Forms, Xamarin, ASP.NET
+                        Core WebAPI, and Angular. I also know my way around Azure Pipelines for building and deploying
+                        apps.
+                    </p>
+                    <p style="text-indent: 30px;">
+                        When it comes to work, I'm really focused and work well in teams. I'm pretty disciplined and
+                        always looking for ways to learn and grow my skills. But hey, I'll be honest, once I start
+                        something, it's hard for me to take a break until it's done. I'm aware of it though and I'm
+                        working on finding that sweet balance between work and play.
                     </p>
                 </tab>
                 <tab heading="Hobbies">
                     <div class="row">
                         <ul class="list-inline m-3">
+                            <li class="list-inline-item hobby-li-item">
+                                <img src="/assets/coding.png" class="skill-side-thumb-icon" alt="">
+                            </li>
                             <li class="list-inline-item hobby-li-item">
                                 <img src="/assets/road_bike.png" class="skill-side-thumb-icon" alt="">
                             </li>
@@ -97,31 +109,44 @@
             </tabset>
         </div>
     </div>
-    <div class="row mt-4">
-        <div class="col-2">
+    <div class="row mt-2">
+        <div class="col-md-2">
             <h3 id="experience">Experience</h3>
         </div>
-        <div class="col-10">
+        <div class="col-md-10">
             <hr>
         </div>
     </div>
     <div class="row">
-        <div class="col-12">
+        <div class="col-md-9">
             <ul>
                 <li>
-                    <span class="text-uppercase font-weight-bold" style="font-size: 22px;">Futuriti SA, Cracov </span>
-                    |
-                    <span class="font-weight-bold font-italic text-monospace">06.2021 - 04.2023</span>
+                    <span class="font-weight-bold" style="font-size: 22px;">Futuriti SA, Cracov </span>
 
                     <br>
-                    <span class="experience-bagde badge bg-primary">Allegro</span>
+                    <span class="font-weight-bold ml-4" style="font-size: large;">xSale - eCommerce project</span>
+
+                    <ul class="ml-5">
+                        <li>integrate eStore & ERP</li>
+                        <li>manage products catalog</li>
+                        <li>print labels & waybills</li>
+                        <li>automatically send invoices</li>
+                    </ul>
+
+                    <span class="font-weight-bold ml-4" style="font-size: medium;">e.g. -> </span>
+                    <span class="experience-bagde badge bg-primary mt-2">Allegro</span>
                     <span class="experience-bagde badge bg-secondary">Amazon</span>
                     <span class="experience-bagde badge bg-primary">Zalando</span>
-                    <span class="experience-bagde badge bg-secondary">PrestaShop</span>
-                    <span class="experience-bagde badge bg-primary">Shoper</span>
+                    <span class="experience-bagde badge bg-secondary">Shoper</span>
+                    <span class="experience-bagde badge bg-primary">IdoSell</span>
                     <span class="experience-bagde badge bg-secondary">...</span>
                 </li>
             </ul>
+        </div>
+        <div class="col-md-3">
+            <div class="text-right">
+                <span class="font-weight-bold font-italic text-monospace">June 2021 - April 2023</span>
+            </div>
         </div>
     </div>
 </div>

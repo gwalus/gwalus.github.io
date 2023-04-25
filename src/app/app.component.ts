@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'myApp';
+  title = 'gwalus.io';
 
   open: boolean = true;
   disabled: boolean = true;

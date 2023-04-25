@@ -11,8 +11,8 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { StatusBarComponent } from './status-bar/status-bar.component';
-import { TooltipModule } from 'ngx-bootstrap/tooltip'
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { FooterComponent } from './footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip'
     ProjectsComponent,
     AboutMeComponent,
     NavbarComponent,
-    StatusBarComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,

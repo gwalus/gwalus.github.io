@@ -1,17 +1,184 @@
-.skill-thumb-icon {
-    max-height: 65px;
-    padding-right: 0.5rem;
+.profile-img {
+    max-width: 250px;
+    border: 5px solid #fff;
+    transition: transform 0.3s ease;
 }
 
-.skill-side-thumb-icon {
-    max-height: 55px;
-    padding-right: 1rem;
+.profile-img:hover {
+    transform: scale(1.05);
 }
 
-.hobby-li-item {
-    padding-right: 1rem;
+.tech-card {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #e9ecef;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
-.experience-bagde {
-    margin-right: 0.5rem;
+.tech-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.tech-header {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tech-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tech-item {
+    background: #f8f9fa;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border-left: 4px solid #ced4da;
+    display: flex;
+    flex-direction: column;
+}
+
+.tech-item small {
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+.client-layer .tech-item {
+    border-left-color: #0d6efd;
+}
+
+.core-layer .tech-item {
+    border-left-color: #dc3545;
+}
+
+.background-layer .tech-item {
+    border-left-color: #ffc107;
+}
+
+.highlight-item {
+    background: #fff0f1;
+    border: 1px solid #f5c2c7;
+    border-left: 5px solid #dc3545;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.devops-bar {
+    background: #e7f1ff;
+    border: 1px solid #cff4fc;
+    border-radius: 50px;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.grayscale-icons img {
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s;
+}
+
+.grayscale-icons img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.custom-accordion-header {
+    width: 100%;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 15px 20px;
+    transition: background-color 0.3s;
+}
+
+.custom-accordion-header:hover {
+    background-color: #e9ecef;
+}
+
+.hobby-icon {
+    height: 40px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.hobby-icon:hover {
+    opacity: 1;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 20px;
+    border-left: 2px solid #e9ecef;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 20px;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -26px;
+    top: 15px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.timeline-content {
+    transition: transform 0.2s;
+}
+
+.timeline-content:hover {
+    transform: translateX(5px);
+}
+
+.tech-stack .badge {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.section-title {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #0d6efd;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .display-6 {
+        font-size: 1.5rem;
+    }
 }

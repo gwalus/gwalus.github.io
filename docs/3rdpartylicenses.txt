@@ -90,6 +90,8 @@ SOFTWARE.
 
 
 
+ngx-bootstrap/tooltip
+
 rxjs
 Apache-2.0
                                Apache License
